@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		169D2CD41DB8BC6900B27412 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D2CD31DB8BC6900B27412 /* main.swift */; };
+		169D2CDB1DB8BCBA00B27412 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D2CDA1DB8BCBA00B27412 /* ConsoleIO.swift */; };
+		169D2CDF1DB8C1AD00B27412 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D2CDE1DB8C1AD00B27412 /* Service.swift */; };
+		CE67EDCF1FD14F1E00F04A8D /* POEApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67EDCE1FD14F1E00F04A8D /* POEApiError.swift */; };
+		CE67EDD31FD1523900F04A8D /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67EDD01FD1523800F04A8D /* URL+Extension.swift */; };
+		CE67EDD41FD1523900F04A8D /* POEApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67EDD11FD1523800F04A8D /* POEApiConstants.swift */; };
+		CE67EDD51FD1523900F04A8D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67EDD21FD1523800F04A8D /* Reachability.swift */; };
+		CE67EDD81FD152D100F04A8D /* POEApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67EDD71FD152D100F04A8D /* POEApiClient.swift */; };
+		CE67EDDB1FD16E5400F04A8D /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67EDDA1FD16E5400F04A8D /* URLRequestBuilder.swift */; };
+		CE67EDDD1FD17EA800F04A8D /* POEService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67EDDC1FD17EA800F04A8D /* POEService.swift */; };
+		CE67EDDF1FD1811C00F04A8D /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67EDDE1FD1811C00F04A8D /* ProjectModel.swift */; };
+		CE67EDE21FD1816A00F04A8D /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67EDE11FD1816A00F04A8D /* LanguageModel.swift */; };
+		CE67EDEA1FD197A800F04A8D /* POEApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67EDE91FD197A800F04A8D /* POEApiModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +37,18 @@
 /* Begin PBXFileReference section */
 		169D2CD01DB8BC6900B27412 /* POExporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = POExporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		169D2CD31DB8BC6900B27412 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		169D2CDA1DB8BCBA00B27412 /* ConsoleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		169D2CDE1DB8C1AD00B27412 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CE67EDCE1FD14F1E00F04A8D /* POEApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POEApiError.swift; sourceTree = "<group>"; };
+		CE67EDD01FD1523800F04A8D /* URL+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		CE67EDD11FD1523800F04A8D /* POEApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POEApiConstants.swift; sourceTree = "<group>"; };
+		CE67EDD21FD1523800F04A8D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		CE67EDD71FD152D100F04A8D /* POEApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POEApiClient.swift; sourceTree = "<group>"; };
+		CE67EDDA1FD16E5400F04A8D /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
+		CE67EDDC1FD17EA800F04A8D /* POEService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POEService.swift; sourceTree = "<group>"; };
+		CE67EDDE1FD1811C00F04A8D /* ProjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
+		CE67EDE11FD1816A00F04A8D /* LanguageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
+		CE67EDE91FD197A800F04A8D /* POEApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POEApiModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,53 @@
 		169D2CD21DB8BC6900B27412 /* POExporter */ = {
 			isa = PBXGroup;
 			children = (
+				CE67EDE01FD1812000F04A8D /* Models */,
 				169D2CD31DB8BC6900B27412 /* main.swift */,
+				169D2CDA1DB8BCBA00B27412 /* ConsoleIO.swift */,
+				169D2CDE1DB8C1AD00B27412 /* Service.swift */,
+				CE67EDE31FD188BE00F04A8D /* POEService */,
+				CE67EDD91FD1542B00F04A8D /* POEApi */,
+				CE67EDD61FD1523C00F04A8D /* Helpers */,
 			);
 			path = POExporter;
+			sourceTree = "<group>";
+		};
+		CE67EDD61FD1523C00F04A8D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE67EDD21FD1523800F04A8D /* Reachability.swift */,
+				CE67EDD01FD1523800F04A8D /* URL+Extension.swift */,
+				CE67EDDA1FD16E5400F04A8D /* URLRequestBuilder.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		CE67EDD91FD1542B00F04A8D /* POEApi */ = {
+			isa = PBXGroup;
+			children = (
+				CE67EDD71FD152D100F04A8D /* POEApiClient.swift */,
+				CE67EDCE1FD14F1E00F04A8D /* POEApiError.swift */,
+				CE67EDD11FD1523800F04A8D /* POEApiConstants.swift */,
+				CE67EDE91FD197A800F04A8D /* POEApiModel.swift */,
+			);
+			name = POEApi;
+			sourceTree = "<group>";
+		};
+		CE67EDE01FD1812000F04A8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE67EDDE1FD1811C00F04A8D /* ProjectModel.swift */,
+				CE67EDE11FD1816A00F04A8D /* LanguageModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CE67EDE31FD188BE00F04A8D /* POEService */ = {
+			isa = PBXGroup;
+			children = (
+				CE67EDDC1FD17EA800F04A8D /* POEService.swift */,
+			);
+			name = POEService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,7 +157,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = prog;
 				TargetAttributes = {
 					169D2CCF1DB8BC6900B27412 = {
@@ -120,7 +188,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE67EDD51FD1523900F04A8D /* Reachability.swift in Sources */,
 				169D2CD41DB8BC6900B27412 /* main.swift in Sources */,
+				CE67EDDD1FD17EA800F04A8D /* POEService.swift in Sources */,
+				CE67EDDB1FD16E5400F04A8D /* URLRequestBuilder.swift in Sources */,
+				CE67EDD81FD152D100F04A8D /* POEApiClient.swift in Sources */,
+				169D2CDB1DB8BCBA00B27412 /* ConsoleIO.swift in Sources */,
+				CE67EDE21FD1816A00F04A8D /* LanguageModel.swift in Sources */,
+				169D2CDF1DB8C1AD00B27412 /* Service.swift in Sources */,
+				CE67EDD31FD1523900F04A8D /* URL+Extension.swift in Sources */,
+				CE67EDEA1FD197A800F04A8D /* POEApiModel.swift in Sources */,
+				CE67EDCF1FD14F1E00F04A8D /* POEApiError.swift in Sources */,
+				CE67EDD41FD1523900F04A8D /* POEApiConstants.swift in Sources */,
+				CE67EDDF1FD1811C00F04A8D /* ProjectModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +216,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -144,7 +226,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -184,7 +271,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -192,7 +281,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -212,6 +306,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -219,7 +314,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -227,7 +323,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -250,6 +347,7 @@
 				169D2CD91DB8BC6900B27412 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
